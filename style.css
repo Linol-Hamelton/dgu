@@ -322,6 +322,8 @@ body {
 
 .hall__image--main {
     grid-row: span 2;
+    height: 100%;
+    width: 100%;
 }
 
 .hall__subtitle {
