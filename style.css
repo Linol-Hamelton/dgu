@@ -160,8 +160,9 @@ body {
     position: absolute;
     top: 0;
     right: 0;
-    width: 80%;
-    max-width: 300px;
+    width: 100%;
+    justify-items: center;
+    text-align: center;
     height: fit-content;
     background: var(--color-bg);
     padding: 60px 20px;
