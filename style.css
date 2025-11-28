@@ -758,9 +758,21 @@ body {
         font-size: 32px;
     }
 
-    .hero__subtitle {
-        font-size: 16px;
-    }
+.hero__subtitle {
+    font-size: 20px;
+    padding: 60px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;     
+    overflow-wrap: break-word;  
+    hyphens: auto;             
+    -webkit-hyphens: auto;      
+    -moz-hyphens: auto;        
+
+    /* Дополнительно: улучшает читаемость */
+    text-align: justify;        /* выравнивание по ширине (необязательно, но часто уместно) */
+    line-height: 1.5;           /* комфортная межстрочная высота */
+}
 
     .hero__cta {
         flex-direction: column;
