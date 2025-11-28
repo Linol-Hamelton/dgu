@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;          /* на всю высоту окна */
+  margin: 0;
+  background: #f5f5f5;    /* светло-серый фон */
+  font-family: Arial, sans-serif;
+}
+
+/* Стилизуем заголовок */
+h1 {
+  color: #333;            /* тёмно-серый текст */
+  font-size: 3rem;        /* крупный шрифт */
+}
