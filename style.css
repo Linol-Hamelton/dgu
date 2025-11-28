@@ -222,16 +222,7 @@ body {
 .hero__subtitle {
     font-size: 18px;
     color: var(--color-text-secondary);
-    padding: 60px 30px;
-    width: 100%;
-    box-sizing: border-box;
-    word-wrap: break-word;     
-    overflow-wrap: break-word;  
-    hyphens: auto;             
-    -webkit-hyphens: auto;      
-    -moz-hyphens: auto;        
-    text-align: justify;
-    line-height: 1.5;
+    margin-bottom: 40px;
     line-height: 1.8;
 }
 
