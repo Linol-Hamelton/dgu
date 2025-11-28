@@ -308,22 +308,18 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    height: 100%;
-    width: 100%;
 }
 
 .hall__image {
     aspect-ratio: 4/3;
     border-radius: 10px;
     opacity: 0.8;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
 .hall__image--main {
     grid-row: span 2;
-    height: 100%;
-    width: 100%;
 }
 
 .hall__subtitle {
