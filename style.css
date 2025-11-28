@@ -308,6 +308,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    height: 100%;
+    width: 100%;
 }
 
 .hall__image {
