@@ -793,6 +793,7 @@ body {
 
     .hall__content {
         order: 1;
+        padding: 0 20px;
     }
 
     .features-grid {
