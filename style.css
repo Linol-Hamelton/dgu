@@ -287,10 +287,16 @@ body {
 .section__subtitle {
     font-size: 18px;
     color: var(--color-text-secondary);
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-    line-height: 1.8;
+    padding: 30px 30px;
+    width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;     
+    overflow-wrap: break-word;  
+    hyphens: auto;             
+    -webkit-hyphens: auto;      
+    -moz-hyphens: auto;        
+    text-align: justify;
+    line-height: 1.6;
 }
 
 /* Hall Section */
