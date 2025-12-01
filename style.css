@@ -203,12 +203,12 @@ display: flex;
 align-items: center;
 padding-top: 80px;
 background: 
-  linear-gradient(
-    135deg,
-    rgba(233, 211, 16, 0.678),
-    rgba(20, 20, 20, 0.938) 100%
+linear-gradient(
+    210deg,
+    rgba(233, 211, 16, 0.8),
+    rgba(20, 20, 20, 0.8) 65%
   ),
-  url('./images/main.jpeg') center/cover no-repeat;
+  url('./images/main.jpeg') center/cover no-repeat
 }
 
 .hero__content {
