@@ -198,11 +198,17 @@ body {
 
 /* Hero Section */
 .hero {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    padding-top: 80px;
-    background: linear-gradient(135deg, var(--color-bg) 0%, var(--color-bg-secondary) 100%);
+min-height: 100vh;
+display: flex;
+align-items: center;
+padding-top: 80px;
+background: 
+  /* 1. Градиент (с частичной прозрачностью, чтобы не перекрывать всё) */
+  linear-gradient(135deg, rgba(187, 0, 255, 0.4) 0%, var(--color-bg-secondary-transparent 100%)),
+  /* 2. Полупрозрачный чёрный оверлей */
+  rgba(0, 0, 0, 0.5),
+  /* 3. Фоновое изображение */
+  url('/images/main.jpeg') center/cover no-repeat;
 }
 
 .hero__content {
