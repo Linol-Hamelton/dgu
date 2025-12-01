@@ -203,8 +203,11 @@ display: flex;
 align-items: center;
 padding-top: 80px;
 background: 
-  linear-gradient(135deg, rgba(187, 0, 255, 0.4) 0%, var(--color-bg-secondary-transparent) 100%),
-  rgba(0, 0, 0, 0.5),
+  linear-gradient(
+    135deg,
+    rgba(187, 0, 255, 0.4) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  ),
   url('./images/main.jpeg') center/cover no-repeat;
 }
 
